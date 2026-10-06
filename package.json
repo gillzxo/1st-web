@@ -1,0 +1,19 @@
+{
+  "name": "gill1s",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.14.0",
+    "@libsql/client": "^0.15.0",
+    "aws4fetch": "^1.0.20",
+    "hono": "^4.13.8",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}
